@@ -73,7 +73,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: '首页',
+        title: 'My Site',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -83,77 +83,73 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: '说明书',
+            label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
-//          {
-//            href: 'https://github.com/howard520/tx-zone',
-//            label: 'GitHub',
-//            position: 'right',
-//          },
+          {
+            href: 'https://github.com/howard520/tx-zone',
+            label: 'GitHub',
+            position: 'right',
+          },
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: '说明书',
+            title: 'Docs',
             items: [
               {
-                label: '遥控器说明书',
-                to: '/docs/%E9%81%A5%E6%8E%A7%E5%99%A8/DRC16/%E4%B8%80%EF%BC%9A%E9%81%A5%E6%8E%A7%E5%99%A8%E7%AE%80%E4%BB%8B/1.1%E9%81%A5%E6%8E%A7%E5%99%A8%E4%BD%BF%E7%94%A8%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9#',
+                label: 'Tutorial',
+                to: '/docs/intro',
               },
-              {
-               label: '接收机说明书',
-               to: '/docs/%E6%8E%A5%E6%94%B6%E6%9C%BA/P6FG%E6%8E%A5%E6%94%B6%E6%9C%BA',
-             },
             ],
           },
           {
-            title: '媒体',
+            title: 'Community',
             items: [
               {
-                label: 'Bilibili',
-                href: 'https://space.bilibili.com/484079862',
+                label: 'Stack Overflow',
+                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
-                label: '抖音',
-                href: 'https://www.douyin.com/user/MS4wLjABAAAAnD1BSivH_1MNFjHeb30z4jZsJwoOOIXf57lNXewEpQ0?from_tab_name=main',
+                label: 'Discord',
+                href: 'https://discordapp.com/invite/docusaurus',
               },
-//             {
-//                label: 'X',
-//                href: 'https://x.com/docusaurus',
-//              },
+              {
+                label: 'X',
+                href: 'https://x.com/docusaurus',
+              },
             ],
           },
           {
-            title: '电商平台',
+            title: 'More',
             items: [
               {
-                label: '淘宝网站',
-                href: 'https://fangleiyu.taobao.com',
+                label: 'Blog',
+                to: '/blog',
               },
               {
-                label: '1688网站',
-                href: 'https://dumborc.1688.com',
+                label: 'GitHub',
+                href: 'https://github.com/howard520/tx-zone',
               },
             ],
           },
- //{
- //           title: 'More',
-//            items: [
-//              {
-//                label: 'Blog',
-//                to: '/blog',
-//              },
-//              {
-//                label: 'GitHub',
-//                href: 'https://github.com/howard520/tx-zone',
-//              },
-//            ],
-//          },
+ {
+            title: 'More',
+            items: [
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/howard520/tx-zone',
+              },
+            ],
+          },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} 深圳市小飞象模型有限公司. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

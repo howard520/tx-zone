@@ -4,27 +4,25 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: '兼容性',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        遥控器与接收机虽然款式多样，升级迭代多次，却始终保持高度兼容，让模友降低购买配件成本。畅享稳定高效体验，尽显科技魅力与贴心关怀。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '升级方便',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        无论是新手还是资深用户，都能轻松完成升级操作，感受功能的提升和体验的焕新。我们致力于让升级过程简单快捷，让您享受最新功能带来的便利和高效。
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '售后响应快',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
