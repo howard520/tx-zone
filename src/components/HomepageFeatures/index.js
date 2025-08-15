@@ -26,8 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        B站、抖音大量教学视频，帮助模友自主解决问题，如果需要在线指导，可随时通过旺旺、QQ群、微信群、电话实时回复咨询，专人一对一指导。
       </>
     ),
   },
