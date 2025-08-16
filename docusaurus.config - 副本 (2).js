@@ -81,17 +81,11 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            href: '/docs/%E9%81%A5%E6%8E%A7%E5%99%A8/DRC16/%E4%B8%80%EF%BC%9A%E9%81%A5%E6%8E%A7%E5%99%A8%E7%AE%80%E4%BB%8B/1.1%E9%81%A5%E6%8E%A7%E5%99%A8%E4%BD%BF%E7%94%A8%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: '遥控器',
+            label: '说明书',
           },
-          {
-            href: '/docs/%E6%8E%A5%E6%94%B6%E6%9C%BA/P6FG%E6%8E%A5%E6%94%B6%E6%9C%BA',
-            position: 'left',
-            label: '接收机',
-          },
-//       {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'left'},
 //          {
 //            href: 'https://github.com/howard520/tx-zone',
 //            label: 'GitHub',
