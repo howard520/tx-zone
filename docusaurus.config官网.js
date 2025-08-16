@@ -13,11 +13,12 @@ const config = {
   title: 'Txmanual',
   tagline: 'Let\'s do better',
   favicon: 'img/favicon.ico',
-  url: 'https://howard520.github.io', // 你的 GitHub Pages 网址
-  baseUrl: '/tx-zone/', // 你的项目名称
-  organizationName: 'howard520', // 你的 GitHub 用户名
-  projectName: 'tx-zone', // 你的仓库名称
-  deploymentBranch: 'gh-pages',
+  url: 'https://www.dumborc.com', // 你的 GitHub Pages 网址
+  baseUrl: '/sms/', // 你的项目名称
+  trailingSlash: true,
+//  organizationName: 'howard520', // 你的 GitHub 用户名
+//  projectName: 'tx-zone', // 你的仓库名称
+//  deploymentBranch: 'gh-pages',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -75,17 +76,23 @@ const config = {
       navbar: {
         title: '首页',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+         alt: 'My Site Logo',
+         src: '/static/img/logo.svg',
         },
         items: [
           {
             type: 'docSidebar',
+            href: '/docs/%E9%81%A5%E6%8E%A7%E5%99%A8/DRC16/%E4%B8%80%EF%BC%9A%E9%81%A5%E6%8E%A7%E5%99%A8%E7%AE%80%E4%BB%8B/1.1%E9%81%A5%E6%8E%A7%E5%99%A8%E4%BD%BF%E7%94%A8%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: '说明书',
+            label: '遥控器',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            href: '/docs/%E6%8E%A5%E6%94%B6%E6%9C%BA/P6FG%E6%8E%A5%E6%94%B6%E6%9C%BA',
+            position: 'left',
+            label: '接收机',
+          },
+//       {to: '/blog', label: 'Blog', position: 'left'},
 //          {
 //            href: 'https://github.com/howard520/tx-zone',
 //            label: 'GitHub',
